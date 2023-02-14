@@ -1,2 +1,2 @@
 #!/bin/bash
-$PATH find . -type d | wc -1
+$PATH ls -l | grep ^d | wc -1
